@@ -1,0 +1,179 @@
+.header_achtergrond{
+    background-color: rgb(209, 209, 98);
+    height: 25px;
+    width: 610px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.footer_achtergrond{
+    background-color: rgb(220, 168, 105);
+    height: 25px;
+    width: 610px;
+    text-align: center;
+    color:aliceblue
+}
+
+
+
+#cel01{
+    background-color: rgb(5, 95, 5);
+    width: 150px;
+    height: 150px;
+    text-align: center
+}
+
+#cel02{
+    background-color: rgb(9, 9, 237);
+    width: 150px;
+    height: 150px;
+    text-align: center
+}
+
+#cel03{
+    background-color: rgb(238, 9, 39);
+    width: 150px;
+    height: 150px;
+    text-align: center
+}
+
+
+#cel04{
+    background-color: #eaf739;
+    width: 150px;
+    height: 150px;
+    text-align: center
+}
+#cel05{
+    background-color: rgb(3, 126, 3);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel06{
+    background-color: rgb(6, 12, 169);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel07{
+    background-color: rgb(192, 5, 5);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel08{
+    background-color: rgb(206, 220, 5);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel09{
+    background-color: rgb(5, 169, 5);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel10{
+    background-color: rgb(24, 2, 99);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel11{
+    background-color: rgb(122, 3, 13);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel12{
+    background-color: rgb(153, 155, 4);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel13{
+    background-color: rgb(8, 244, 126);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+#cel14{
+    background-color: rgb(17, 3, 68);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#cel15{
+    background-color: rgb(66, 2, 18);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#cel16{
+    background-color: rgb(99, 109, 15);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.centreer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabelgrenzen{
+    border: 1px solid black;
+    border-collapse: collapse;
+  
+}
+
+
+.plaatje{
+    width: 150px;
+    height: 150px;
+}
+
+.tekstincel01{
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;)
+}
+
+
+.tekstincel03{
+    background-color: rgb(52, 94, 51);
+    color:aliceblue
+}
+
+.tekstincel05{
+    background-color: rgb(114, 3, 3);
+    color:aliceblue
+}
+
+.tekstincel07{
+    background-color: rgb(146, 5, 127);
+    color:aliceblue
+}
+
+.tekstincel09{
+    background-color: rgb(1, 120, 21);
+    color:aliceblue
+}
+
+.tekstincel11{
+    background-color: rgb(146, 156, 5);
+    color:aliceblue
+}
+
+.tekstincel13{
+    background-color: rgb(154, 7, 149);
+    color:aliceblue
+}
+
+.tekstincel15{
+    background-color: rgb(6, 167, 68);
+    color:aliceblue
+}
+
