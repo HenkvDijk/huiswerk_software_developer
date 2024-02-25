@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<htm lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <title>Contactformulier | Henk van Dijk</title>
+        <link rel="stylesheet" type="text/css" href="style/main.css" />      
+       
+    </head>
+
+    <body class="standaardopmaak">
+
+    <header>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mijncv.html">Mijn CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    
+        <form id="contactformulier" action="https://formspree.io/f/mbjebjwk" method="post">
+            <fieldset id="velden_contactformulier">
+                <legend>Contactformulier</legend>
+
+                <label for="voornaam">Voornaam <input type="text" id="voornaam" name="voornaam" placeholder="Uw voornaam" /></label>
+                
+                <label for="achternaam"></label>
+                <input type="text" id="achternaam" name="achternaam" placeholder="Uw achternaam" />
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Uw emailadres" />
+                <label for="telefoonnummer"></label>
+                <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="Uw telefoonnummer" />
+                <label for="bericht"></label>
+                <textarea id="bericht" name="bericht" placeholder="Uw bericht"></textarea>
+                <label for="verzendknop"></label>
+                <button id="verzendknop">Verzenden</button>
+            </fieldset>
+ 
+        </form> 
+      
+  <footer>
+    <hr> 
+    Copyright Henk van Dijk &copy;2023
+  </footer>
+
+  </body>
+</html>
