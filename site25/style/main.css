@@ -1,35 +1,98 @@
-
-/*body vormgeven */
-
-body {
-    background-color: #C3DBD7;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+[class*="col-"] {
+    float: left;
+    padding: 15px;
 }
 
-/* index-pagina vormgeven */
-
-
-p, h1, h2, h3, 
-aside, footer {
-    width: 800px;
-    padding: 0 20px 0 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding 5px;
-
-
+.col-1 {
+    width: 8.33%;
 }
 
+.col-2 {
+    width: 16.66%;
+}
 
-#extratext {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #C3DBD7;
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.titel {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu li:hover {
+    background-color: lightgray;
     color: black;
-    font-style: italic;
-    padding: 20px;
-
+    border-radius: 5px;
 }
 
+
+#panel,
+#flip {
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    border: solid 1px #c3c3c3;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+#panel {
+    padding: 50px;
+    display: none;}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}

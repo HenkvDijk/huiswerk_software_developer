@@ -7,84 +7,64 @@
     <meta name="description" content="Voorbeeldpagina met jQuery">
     <meta name="keywords" content="jQuery, huiswerkopgave, oefenen">
     <meta name="author" content="Henk van Dijk">
-    <title>Huiswerk les 25t</title>
+    <title>Huiswerk NHA 25 jQuery</title>
     <link rel="stylesheet" type="text/css" href="style/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#hidep").click(function () {
-                $("p").hide();
-                $("p").animate({fontSize: '1em'}, "slow");
-            });
-        });
+    <script src="javascript/script.js"></script>
 
-        $(document).ready(function () {
-            $("#showp").click(function () {
-                $("p").show();
-                $("p").animate({fontSize: '3em'}, "slow");
-            });
-
-            $("p").click(function () {
-            $(this).hide();
-        });
-        });
-
-      
-
-    </script>
 
 </head>
 
 <body>
-    <h1>Persoonlijke pagina</h1>
-    <article>
-        <h2>Bijna alles wat je wilt weten</h2>
+
+    <div class="titel">
+        <h1>Mijn pagina met javascript voorbeelden</h1>
+    </div>
+    <div class="row">
+        <div class="col-2 menu">
+            <ul>
+                <li id="hidep">Verberg de tekst</li>
+                <li id="showp">Tekst in normale grootte</li>
+                <li id="vergroot">Vergroot tekst</li>
+                <li id="verklein">Verklein tekst</li>
+
+            </ul>
+            <br>
+            <div id="flip">Dubbelklik om achtergrondkleur te kiezen</div>
+            <div id="panel">
+                <ul>
+                    <li id="wit">Achtergrond wit</li>
+                    <li id="grijs">Achtergrond grijs</li>
+                    <li id="blauw">Achtergrond blauw</li>
+
+                </ul>
+
+            </div>
 
 
-        <section>
-
-            <h3>Een verhaaltje over mijzelf</h3>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac dictum ex. Nam sapien libero,
-                hendrerit ut risus tempus, pharetra commodo felis. Pellentesque habitant morbi tristique senectus et
-                netus et malesuada fames ac turpis egestas. Nunc sapien ipsum, tempor quis volutpat eget, iaculis ut
-                dolor. Praesent convallis sem a turpis mattis porttitor. Vestibulum ante ipsum primis in faucibus orci
-                luctus et ultrices posuere cubilia curae; Aenean in mi aliquet, sagittis magna in, interdum felis. Ut
-                fringilla nibh diam, et eleifend leo congue nec. Pellentesque habitant morbi tristique senectus et netus
-                et malesuada fames ac turpis egestas. Praesent non egestas magna, quis sagittis lectus. Phasellus ac
-                magna sit amet turpis mollis finibus.Quisque egestas lorem in libero rhoncus, vel rutrum nibh blandit.
-                Quisque a cursus nulla.
-            </p>
-        </section>
-        <section>
-            <h3>En verder wil je dit natuurlijk ook weten:</h3>
-            <p>
-
-                Aliquam at sodales leo. Nam convallis scelerisque eleifend. Vivamus id lorem in elit lobortis dapibus
-                sed non nisl. Nullam rutrum nisi eu ex mollis molestie. Integer sagittis felis eu maximus mattis.
-                Curabitur tincidunt tortor risus, vitae varius est facilisis in. Nulla pretium massa egestas, lobortis
-                lectus sed, posuere purus.Nullam a justo quam. Aliquam eget felis ac lacus aliquam iaculis ac eget
-                magna. Sed ac nisl congue, aliquet massa vitae, luctus enim. Suspendisse quam nulla, lacinia non leo
-                nec, aliquam auctor nisl.
-            </p>
-
-            <aside id="extratext">
-                Donec congue cursus hendrerit. Donec semper erat nec pulvinar blandit.
-                Phasellus vel massa a turpis hendrerit sodales. Sed odiolorem, pharetra vitae sem elementum, sodales
-                mattis leo. Fusce ut purus nec mi tincidunt accumsan sed in sapien.</aside>
-        </section>
-    </article>
+        </div>
+        <div class="col-9" id="tekstgebied">
+            <h1>Welkom</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eos, fuga id beatae eveniet quae
+                quas qui molestiae aliquam consectetur! Aperiam vel unde reprehenderit perspiciatis, iure autem, ab ea
+                velit quidem, recusandae amet! Neque quis soluta illum quisquam nobis, ut id officiis debitis nemo,
+                atque molestiae. Commodi culpa, excepturi voluptatem porro dolor ut veritatis doloribus harum numquam
+                qui nulla, fugit minima maiores alias sed reprehenderit nostrum hic temporibus? Officiis mollitia
+                blanditiis odio iste, quo sequi eaque impedit minus placeat repellat porro harum similique aut ipsum
+                quibusdam iure hic dolore voluptas omnis. Quidem earum omnis nostrum, doloribus animi qui adipisci
+                aspernatur. </p>
 
 
-    <button id="hidep">Click me to hide paragraphs</button>
-    <button id="showp">Click me to show paragraphs</button>
 
+        </div>
+    </div>
 
-    <footer>
+    <div class="row">
+    <footer class="col-11">
         <hr>
-        Copyright Henk van Dijk &copy;2023
+        Copyright Henk van Dijk &copy;2024
     </footer>
-
+    </div>
 </body>
 
 </html>
