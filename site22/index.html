@@ -2,108 +2,69 @@
 <html lang="nl">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Voorpagina</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="style/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voorbeeldpagina met jQuery">
+    <meta name="keywords" content="jQuery, huiswerkopgave, oefenen">
+    <meta name="author" content="Henk van Dijk">
+    <title>Huiswerk NHA 25 jQuery</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="javascript/script.js"></script>
+
+
 </head>
 
 <body>
 
-  <!-- Navigatie -->
-  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
-    <div class="container-sm">
-      <!-- navbar brand / title -->
-      <a class="navbar-brand" href="#">
-        <span class="text-secondary fw-bold">
-          Henk van Dijk - Een Website Over Mij
-        </span>
-      </a>
-      <!-- toggle button for mobile nav -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
-        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- navbar links -->
-      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home Page</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="overmij.html">Over mij</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <div class="titel">
+        <h1>Mijn pagina met javascript voorbeelden</h1>
     </div>
-  </nav>
+    <div class="row">
+        <div class="col-2 menu">
+            <ul>
+                <li id="hidep">Verberg de tekst</li>
+                <li id="showp">Tekst in normale grootte</li>
+                <li id="vergroot">Vergroot tekst</li>
+                <li id="verklein">Verklein tekst</li>
 
-  <div class="container-sm text-secondary bg-light p-2 rounded border shadow p-5 my-4">
-    <h2 class="display-6 text-secondary">Welkom</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Assumenda, ipsa obcaecati sit, corporis tenetur recusandae dolore ducimus dolores aliquid, cumque
-      placeat laudantium esse quibusdam non veritatis iste modi! Magnam, vero nesciunt nisi impedit dignissimos id
-      voluptas ad sunt aspernatur voluptatum inventore quia adipisci fugit ut tempora dolorum eveniet eum aliquid.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, accusantium, saepe error blanditiis corporis
-      illum suscipit consequuntur omnis facere quae incidunt porro fugit et praesentium neque voluptate voluptates est
-      laudantium!
-    </p>
-  </div>
-  <div class="container-sm p-2">
-    <h2 class="display-6 text-secondary">Foto's van mijn woonplaats</h2>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-      <div class="col">
-        <img src="assets/houses-5432876_1280.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col">
-        <img src="assets/amsterdam-2153096_1280.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col">
-        <img src="assets/amsterdam-2551_1280.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col">
-        <img src="assets/amsterdam-4625104_1280.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col">
-        <img src="assets/houses-5432876_1280.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col">
-        <img src="assets/amsterdam-centraal-station-6778948_1280.jpg" class="img-fluid" alt="">
-      </div>
+            </ul>
+            <br>
+            <div id="flip">Dubbelklik om achtergrondkleur te kiezen</div>
+            <div id="panel">
+                <ul>
+                    <li id="wit">Achtergrond wit</li>
+                    <li id="grijs">Achtergrond grijs</li>
+                    <li id="blauw">Achtergrond blauw</li>
 
-      <div class="col">
-        <img src="assets/canal-5488271_1280.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col">
-        <img src="assets/lantern-4823889_1280.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col">
-        <img src="assets/houses-5432876_1280.jpg" class="img-fluid" alt="">
-      </div>
+                </ul>
+
+            </div>
+
+
+        </div>
+        <div class="col-9" id="tekstgebied">
+            <h1>Welkom</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eos, fuga id beatae eveniet quae
+                quas qui molestiae aliquam consectetur! Aperiam vel unde reprehenderit perspiciatis, iure autem, ab ea
+                velit quidem, recusandae amet! Neque quis soluta illum quisquam nobis, ut id officiis debitis nemo,
+                atque molestiae. Commodi culpa, excepturi voluptatem porro dolor ut veritatis doloribus harum numquam
+                qui nulla, fugit minima maiores alias sed reprehenderit nostrum hic temporibus? Officiis mollitia
+                blanditiis odio iste, quo sequi eaque impedit minus placeat repellat porro harum similique aut ipsum
+                quibusdam iure hic dolore voluptas omnis. Quidem earum omnis nostrum, doloribus animi qui adipisci
+                aspernatur. </p>
+
+
+
+        </div>
     </div>
-  </div>
 
-
-  <footer class="container-sm bg-body-light text-center text-lg-start">
-    <!-- Copyright -->
-    <div class="text-center p-3">
-      © 2024 Copyright:
-      <a class="text-body" href="#">Henk van Dijk</a>
+    <div class="row">
+    <footer class="col-11">
+        <hr>
+        Copyright Henk van Dijk &copy;2024
+    </footer>
     </div>
-    <!-- Copyright -->
-  </footer>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>

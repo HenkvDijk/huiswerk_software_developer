@@ -1,0 +1,35 @@
+
+/*body vormgeven */
+
+body {
+    background-color: #C3DBD7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/* index-pagina vormgeven */
+
+
+p, h1, h2, h3, 
+aside, footer {
+    width: 800px;
+    padding: 0 20px 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding 5px;
+
+
+}
+
+
+#extratext {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C3DBD7;
+    color: black;
+    font-style: italic;
+    padding: 20px;
+
+}
+
