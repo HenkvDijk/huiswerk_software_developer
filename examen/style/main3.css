@@ -1,0 +1,205 @@
+/* Algemene stijlen */
+* {
+    font-family: "Reddit Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+img {
+    height: auto;
+    max-width: 365px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#trompetist,
+#saxofoonspeler
+{
+    max-width: 265px;
+    margin: 20px;
+}
+
+#saxofoon {
+    margin: 20px 0;
+}
+
+#hannah,
+#jesse {
+    max-width: 50%;
+    margin: 20px;
+}
+
+
+#jesse {
+    float: left;
+}
+
+#hannah {
+    float: right;
+}
+
+header,
+footer {
+    height: 220px;
+}
+
+header {
+    background-color: #f57114;
+}
+
+footer {
+    background-color: #bd560d;
+}
+
+.titel,
+.footertekst {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.titel {
+    color: whitesmoke;
+}
+
+.footertekst {
+    max-width: 100%;
+    font-weight: bold;
+    color: black;
+}
+
+.inhoudeen,
+.inhoudtwee {
+    font-weight: 500;
+    font-size: large;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.inhoudeen {
+    background-color: #ffb785;
+    min-width: 400px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #bd560d;
+    border-bottom: 4px solid yellow;
+}
+
+li {
+    margin: 25px;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    padding: 7px 16px;
+    font-size: medium;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
+
+li a:hover {
+    background-color: #f57114;
+}
+
+.oranjetitel {
+    color: #bd560d;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.voorwaarden_vet {
+    font-weight: bold;
+    display: inline;  
+    
+}
+
+.form_veld {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+input
+ {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+}
+
+.button {
+    background-color: #f57114;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 175px;
+  }
+
+@media only screen and (min-width: 768px) {
+    img {
+        max-width: 340px;
+    }
+
+    li {
+        float: left;
+        height: 55px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        display: flex;
+    }
+
+    .inhoudeen {
+        width: 27%;
+        min-height: 400px;
+        padding-top: 40px;
+        
+    }
+
+    .inhoudtwee {
+        width: 73%;
+        min-height: 400px;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    #trompetist,
+    #saxofoonspeler {
+        max-width: 365px;
+    }
+}
